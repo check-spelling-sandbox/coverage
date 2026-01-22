@@ -26,21 +26,21 @@ http://www.pjcj.net
 <table>
 <tr><th>line</th><th>stmt</th><th>bran</th><th>cond</th><th>sub</th><th>time</th><th>code</th></tr>
 <tr><td class="h">1</td><td></td><td></td><td></td><td></td><td></td><td class="s">#!/usr/bin/env perl</td></tr>
-<tr><td class="h">2</td><td colspan="6"></td></tr><tr><td class="h">3</td><td><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="check-pattern-file-pl--subroutine.html#L3">1</a></div></td><td><div>1307</div><div>1</div><div>532</div></td><td class="s">use CheckSpelling::CheckPattern;</td></tr>
-<tr><td class="h">4</td><td colspan="6"></td></tr><tr><td class="h">5</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>40958</div></td><td class="s">my $file = $ENV{file};</td></tr>
-<tr><td class="h">6</td><td><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="check-pattern-file-pl--subroutine.html#L6">1</a></div></td><td><div>16</div><div>287</div><div>7</div><div>1</div></td><td class="s">open WARNINGS, &quot;&gt;&gt;:encoding(UTF-8)&quot;, $ENV{early_warnings};</td></tr>
-<tr><td class="h">7</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>404</div></td><td class="s">$extension = &#39;.orig&#39;;</td></tr>
-<tr><td class="h">8</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>20</div></td><td class="s">LINE: while (&lt;&gt;) {</td></tr>
+<tr><td class="h">2</td><td colspan="6"></td></tr><tr><td class="h">3</td><td><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="check-pattern-file-pl--subroutine.html#L3">1</a></div></td><td><div>1218</div><div>1</div><div>428</div></td><td class="s">use CheckSpelling::CheckPattern;</td></tr>
+<tr><td class="h">4</td><td colspan="6"></td></tr><tr><td class="h">5</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>40620</div></td><td class="s">my $file = $ENV{file};</td></tr>
+<tr><td class="h">6</td><td><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div><div class="c3">1</div></td><td></td><td></td><td><div class="c3"><a href="check-pattern-file-pl--subroutine.html#L6">1</a></div></td><td><div>13</div><div>247</div><div>6</div><div>2</div></td><td class="s">open WARNINGS, &quot;&gt;&gt;:encoding(UTF-8)&quot;, $ENV{early_warnings};</td></tr>
+<tr><td class="h">7</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>344</div></td><td class="s">$extension = &#39;.orig&#39;;</td></tr>
+<tr><td class="h">8</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>16</div></td><td class="s">LINE: while (&lt;&gt;) {</td></tr>
 <tr><td class="h">9</td><td><div class="c3">1</div></td><td><div class="c0" title="T/-"><a href="check-pattern-file-pl--branch.html#L9">50</a></div></td><td></td><td></td><td><div>2</div></td><td class="s">&nbsp;&nbsp;if ($ARGV ne $oldargv) {</td></tr>
-<tr><td class="h">10</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>2</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;$backup = $ARGV . $extension;</td></tr>
-<tr><td class="h">11</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>28</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;rename($ARGV, $backup);</td></tr>
-<tr><td class="h">12</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>37</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;open(ARGVOUT, &quot;&gt;$ARGV&quot;);</td></tr>
-<tr><td class="h">13</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>3</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;select(ARGVOUT);</td></tr>
-<tr><td class="h">14</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>3</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;$oldargv = $ARGV;</td></tr>
+<tr><td class="h">10</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>1</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;$backup = $ARGV . $extension;</td></tr>
+<tr><td class="h">11</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>21</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;rename($ARGV, $backup);</td></tr>
+<tr><td class="h">12</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>26</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;open(ARGVOUT, &quot;&gt;$ARGV&quot;);</td></tr>
+<tr><td class="h">13</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>2</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;select(ARGVOUT);</td></tr>
+<tr><td class="h">14</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>2</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;$oldargv = $ARGV;</td></tr>
 <tr><td class="h">15</td><td></td><td></td><td></td><td></td><td></td><td class="s">&nbsp;&nbsp;}</td></tr>
 <tr><td class="h">16</td><td colspan="6"></td></tr><tr><td class="h">17</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>2</div></td><td class="s">&nbsp;&nbsp;my ($line, $warning) = CheckSpelling::CheckPattern::process_line($_);</td></tr>
-<tr><td class="h">18</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>6</div></td><td class="s">&nbsp;&nbsp;print &quot;$line\n&quot;;</td></tr>
-<tr><td class="h">19</td><td><div class="c3">1</div></td><td><div class="c0" title="-/F"><a href="check-pattern-file-pl--branch.html#L19">50</a></div></td><td></td><td></td><td><div>6</div></td><td class="s">&nbsp;&nbsp;if ($warning) {</td></tr>
+<tr><td class="h">18</td><td><div class="c3">1</div></td><td></td><td></td><td></td><td><div>1</div></td><td class="s">&nbsp;&nbsp;print &quot;$line\n&quot;;</td></tr>
+<tr><td class="h">19</td><td><div class="c3">1</div></td><td><div class="c0" title="-/F"><a href="check-pattern-file-pl--branch.html#L19">50</a></div></td><td></td><td></td><td><div>7</div></td><td class="s">&nbsp;&nbsp;if ($warning) {</td></tr>
 <tr><td class="h">20</td><td><div class="c0">0</div></td><td></td><td></td><td></td><td><div>0</div></td><td class="s">&nbsp;&nbsp;&nbsp;&nbsp;print WARNINGS &quot;$file:$.:$warning&quot;;</td></tr>
 <tr><td class="h">21</td><td></td><td></td><td></td><td></td><td></td><td class="s">&nbsp;&nbsp;}</td></tr>
 <tr><td class="h">22</td><td></td><td></td><td></td><td></td><td></td><td class="s">}</td></tr>
